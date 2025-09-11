@@ -1,4 +1,7 @@
 # assignment-codes
 Mohsin khan
 
-https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMzRmdXNjazdzMnk5M2U2bWU4MHhnZ2RsY2Y1MWp5NmFhdnRweGJ0ciZlcD12MV9naWZzX3NlYXJjaCZjdD1n/QhmboW0R7eUbm/giphy.gif
+<p align="start">
+  <img src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3Nzk3eDl4Nnl1ZG1kNHN4YnBidG1vcXJpb3Z3dXBqNDJkbmZ5b3dqaiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/11yxY9ef0sAI3S/giphy.gif" width="300" height="200" alt="Coding gif"/>
+</p>
+
