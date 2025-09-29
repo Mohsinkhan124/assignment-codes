@@ -1,0 +1,81 @@
+ body {
+     font-family: Arial, sans-serif;
+     padding: 20px;
+     max-width: 700px;
+     margin: auto;
+ }
+
+ label {
+     display: block;
+     margin-top: 10px;
+ }
+
+ input,
+ select {
+     padding: 8px;
+     width: 100%;
+     box-sizing: border-box;
+     margin-top: 4px;
+ }
+
+ button {
+     margin-top: 12px;
+     padding: 10px 16px;
+ }
+
+ .result {
+     margin-top: 20px;
+     padding: 12px;
+     border: 1px solid #ddd;
+     background: #f9f9f9;
+     border-radius: 6px;
+ }
+
+ .field {
+     margin-bottom: 8px;
+ }
+
+
+ .container-box {
+    height: 400px;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+ }
+
+ .container-box > img {
+    height: 200px;
+    width: 280px;
+    /* object-fit: cover; */
+ }
+
+ .container-box > h2 {
+    font-size: 1.45rem;
+    margin-left: 10px;
+    color: cornflowerblue;
+ }
+
+ .container-box > p {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: hsl(0, 0%, 20%);
+    font-size: 16px;
+    line-height: normal;
+ }
+
+ #moreText {
+    display: none;
+ }
+
+ .container-box > button {
+    margin-left: 10px;
+    padding: 8px 12px;
+    font-size: 1rem;
+    background-color: cornflowerblue;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+ }
