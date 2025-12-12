@@ -1,5 +1,3 @@
-// Copy and paste this code into your editor to begin:
-
 
 const mainStoreInventory = [
     { name: "Laptop", price: 1200, stock: 5 },
@@ -51,4 +49,5 @@ let TotalValue = discountedInventory.reduce((total, item) => {
 // When you log your final result to the console, it should look close to this:
 
 console.log(`Total Inventory Value: ${TotalValue}`);
+
 
