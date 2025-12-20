@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            min-height: 100%;
+        }
+
+
+        body {
+            background-image: url("https://i0.wp.com/picjumbo.com/wp-content/uploads/green-natural-background-with-wooden-surface-free-image.jpeg?w=2210&quality=70");
+            /* height: 100%;
+            width: 100%; */
+            object-fit: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            min-height: 100vh;
+
+        }
+
+        .parent {
+            display: flex;
+            gap: 25px;
+            flex-wrap: wrap;
+            position: absolute;
+            top: 20%;
+            left: 40%;
+        }
+
+        .box {
+            width: 22rem;
+            padding: 20px;
+            display: inline-block;
+            flex-direction: column;
+            /* border: 1px solid white; */
+            border-radius: 12px;
+            overflow: hidden;
+            background-color: transparent;
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            box-shadow: 0 0 16px rgba(0, 0, 0, 0.1);
+        }
+
+        .box > h4 {
+            font-size: 22px;
+            font-weight: 500;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: rgb(5, 247, 114);
+            letter-spacing: 1px;
+            margin-top: 10px;
+        }
+
+        .user-name {
+            display: flex;
+            justify-content: space-between;
+            margin: 10px 0px;
+        }
+
+        .user-name>h2 {
+            font-size: 24px;
+            font-weight: 600;
+            color: darkseagreen;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        .user-name>a {
+            font-size: 14px;
+            font-weight: 500;
+            color: white;
+            text-decoration: none;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            margin-top: 10px;
+        }
+
+        .row-images {
+            display: flex;
+            justify-content: space-between;
+            /* align-items: center; */
+        }
+
+        .circle-id {
+            background-color: white;
+            height: 40px;
+            width: 40px;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+        }
+
+        .circle-id>h3 {
+            color: rgb(0, 0, 0);
+            padding: 5px;
+            font-size: 20px;
+            font-weight: 700;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        .circle-image {
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+            background-image: url("https://img.freepik.com/premium-vector/bearded-smiling-man-with-arms-crossed_165429-132.jpg?semt=ais_hybrid&w=740&q=80");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .stats {
+            display: flex;
+            justify-content: space-between;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .stat h4 {
+            font-size: 18px;
+            font-weight: 600;
+            color: white;
+            margin-bottom: 6px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        .stat h2 {
+            font-size: 26px;
+            font-weight: 700;
+            color: yellowgreen;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="card" class="parent">
+
+       
+
+
+
+    </div>
+
+<script src="app.js"></script>
+</body>
+</html>
